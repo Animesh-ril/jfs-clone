@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 // // pages/index.js
 // import Head from 'next/head'
@@ -23,6 +24,11 @@
 import Head from 'next/head'
 import Card from './components/Card'
 import Footer from './components/Footer'
+=======
+import Image from "next/image";
+import Navbar from "./Components/Navbar";
+import "./globals.css"
+>>>>>>> beab1f5f7a064960ae5657e667b9f99c634b989c
 
 export default function Home() {
   return (
