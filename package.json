@@ -11,13 +11,7 @@
   "dependencies": {
     "next": "14.1.0",
     "react": "^18",
-<<<<<<< HEAD
-    "react-dom": "^18",
-    "react-id-swiper": "^4.0.0",
-    "react-multi-carousel": "^2.8.4"
-=======
     "react-dom": "^18"
->>>>>>> beab1f5f7a064960ae5657e667b9f99c634b989c
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
