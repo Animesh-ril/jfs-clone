@@ -8,8 +8,10 @@ const Navbar = () => {
       <div className="w-full h-20 bg-yellow-500 sticky top-0">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
-            <ul className="hidden md:flex gap-x-6 text-yellow-950 ">
-           <li>
+            <nav>
+            <ul className="hidden md:flex gap-x-6 text-yellow-950  display: flex  font-bold ">
+            <section>
+            <span>
            <Link href="/">
             <svg width="100" height="30" viewBox="0 0 100 200" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M100 0C155.247 0 200 44.7531 200 100C200 155.247 155.247 200 100 200C44.7531 200 0 155.247 0 100C0 44.7531 44.7531 0 100 0Z" fill="url(#paint0_linear_1413_113281)"/>
@@ -22,34 +24,37 @@ const Navbar = () => {
             </defs>
             </svg>
             </Link>
-            </li>
-              <li >
+            </span>
+            </section>
+              <li className="hover:underline decoration-1" >
                 <Link href="/">
                   <p>Our Business</p>
+                  
                 </Link>
+                
               </li>
-              <li>
+              <li className="hover:underline decoration-1 ">
                 <Link href="/">
                   <p>Investor Relations</p>
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline decoration-1 ">
                 <Link href="/">
                   <p>Our Company</p>
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline decoration-1 ">
                 <Link href="/">
                   <p>Careers</p>
                 </Link>
               </li>
-              <li>
+              <li className="hover:underline decoration-1">
                 <Link href="/">
                   <p>Contact Us</p>
                 </Link>
               </li>
             </ul>
-           
+           </nav>
           </div>
         </div>
       </div>
