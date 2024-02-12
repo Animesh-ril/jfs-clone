@@ -12,6 +12,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        JioTypeBlack: ["JioType-Black"], // font-weight : 900
+        JioTypeBold: ["JioType-Bold"], // font-weight:700
+        JioTypeMedium: ["JioType-Medium"], //font-weight : 500
+        JioTypeMediumItalic: ["JioType-MediumItalic"],
+        JioTypeLight: ["JioType-Light"], // font-weight : 300
+        JioTypeLightItalic: ["JioType-LightItalic"],
+      },
     },
   },
   plugins: [],
