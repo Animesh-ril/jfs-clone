@@ -1,18 +1,22 @@
+<<<<<<< HEAD
 import Head from 'next/head'
 import Card from './components/Card'
 import Footer from './components/Footer'
+=======
+
+import Head from 'next/head'
+import Card from './components/Card'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+>>>>>>> c30a5dbe962272d76a2dd049dc6d6895d7e2c9bc
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>JFS | Home</title>
-        <meta name="description" content="Your description here" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      
+
+      <Navbar/>
       <main>
-        <h1>Welcome to JFS</h1>
+        
         <Card />
       </main>
       <Footer/>
