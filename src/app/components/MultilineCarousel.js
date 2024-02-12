@@ -1,48 +1,43 @@
-import React from 'react';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+// components/MultiLineCarousel.js
+import React from "react";
+import Image from "next/image";
+import Swiper from "react-id-swiper";
+import "swiper/swiper.scss";
 
-const MultilineCarousel = ({ items }) => {
-  const responsive = {
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 3 // optional, number of cards to slide
+const MultiLineCarousel = () => {
+  const params = {
+    spaceBetween: 30,
+    slidesPerView: 3,
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
     },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2 // optional, number of cards to slide
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1 // optional, number of cards to slide
-    }
   };
 
   return (
-    <Carousel
-      swipeable={true}
-      draggable={false}
-      showDots={true}
-      responsive={responsive}
-      infinite={true}
-      autoPlay={true}
-      autoPlaySpeed={1000}
-      keyBoardControl={true}
-      customTransition="all .5"
-      transitionDuration={500}
-      containerClass="carousel-container"
-      removeArrowOnDeviceType={["tablet", "mobile"]}
-      dotListClass="custom-dot-list-style"
-      itemClass="carousel-item-padding-40-px"
-    >
-      {items.map((item, index) => (
-        <div key={index}>{item}</div>
-      ))}
-    </Carousel>
+    <Swiper {...params}>
+      <div>
+        <Image src="/image1.jpg" alt="Image 1" />
+      </div>
+      {/* <div>
+        <img src="/image2.jpg" alt="Image 2" />
+      </div>
+      <div>
+        <img src="/image3.jpg" alt="Image 3" />
+      </div> */}
+      {/* Add more slides as needed */}
+    </Swiper>
   );
 };
 
-export default MultilineCarousel;
+export default MultiLineCarousel;
