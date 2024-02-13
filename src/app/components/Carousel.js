@@ -1,4 +1,12 @@
-'use client'; const slides =[
+'use client'; 
+import React, { use, useEffect } from "react";
+import Image from 'next/image'
+import {RxDotFilled} from 'react-icons/rx'
+import { useState } from "react";
+
+
+
+const slides =[
     {
       url: "https://images.unsplash.com/photo-1602454252462-3fe9e21cc149?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb3MlMjBhbmQlMjBjb25zfGVufDB8fDB8fHww",
       plain : 'Protect',
@@ -20,10 +28,7 @@
       coloured: ' your finances'
     }
   ]
-import React, { use, useEffect } from "react";
-import Image from 'next/image'
-import {RxDotFilled} from 'react-icons/rx'
-import { useState } from "react";
+
 
 export default function SlideShow() {
 

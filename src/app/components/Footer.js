@@ -1,10 +1,10 @@
 const Footer = () => {
     return (
-        <footer class="bg-white dark:bg-gray-900">
-            <div class="mx-full w-full max-w-screen-xl justify-center">
-                <div class="grid grid-cols-4 gap-2 px-2 py-6 lg:py-8 md:grid-cols-5 justify-center">
+        <footer class="bg-white dark:bg-gray-900 items-center">
+            <div class="mx-full w-full max-w-screen-xl items-center ml-20 mr-20">
+                <div class="grid grid-cols-4 gap-2 px-2 py-6 lg:py-8 md:grid-cols-5 justify-center ">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioType-Bold" >Our Business</h2>
+                        <h2 class="mb-6 text-sm text-gray-900 uppercase dark:text-white font-JioTypeBold" >Our Business</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class=" hover:underline">Loans</a>
@@ -21,7 +21,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Our Company</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Our Company</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">About Us</a>
@@ -38,7 +38,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Investor Relations</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Investor Relations</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Financials</a>
@@ -70,7 +70,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Legal</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Terms & Conditions</a>
@@ -81,7 +81,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Quick Links
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Quick Links
                         </h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
@@ -99,7 +99,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+                <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center font-JioTypeBold md:justify-between">
                     <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="">Jio Financial Services Ltd.</a>(Formerly Reliance Strategic Investments Ltd.)
                     </span>
 

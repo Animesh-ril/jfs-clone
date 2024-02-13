@@ -1,25 +1,23 @@
-<<<<<<< HEAD
-import Head from 'next/head'
-import Card from './components/Card'
-import Footer from './components/Footer'
-=======
 
 import Head from 'next/head'
 import Card from './components/Card'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
->>>>>>> c30a5dbe962272d76a2dd049dc6d6895d7e2c9bc
+import SlideShow from './components/Carousel'
+import Divider from './components/Divider'
+import Cards from './components/Cards'
+import FooterDivider from './components/FooterDivider'
 
 export default function Home() {
   return (
     <div>
-
       <Navbar/>
       <main>
      <SlideShow/>
-        <Card />
+        <Cards />
         <Divider/>
       </main>
+      <FooterDivider/>
       <Footer/>
     </div>
   )
