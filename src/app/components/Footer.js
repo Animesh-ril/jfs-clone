@@ -4,7 +4,7 @@ const Footer = () => {
             <div class="mx-full w-full max-w-screen-xl justify-center">
                 <div class="grid grid-cols-4 gap-2 px-2 py-6 lg:py-8 md:grid-cols-5 justify-center">
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Our Business</h2>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioType-Bold" >Our Business</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
                                 <a href="#" class=" hover:underline">Loans</a>
