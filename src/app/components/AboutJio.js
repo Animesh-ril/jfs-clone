@@ -18,13 +18,13 @@ const AboutJio = () => {
                         <Image src="/assets/aboutjio/about-jio-finance-desk1.webp" className='rounded-3xl' alt='image' width={400} height={400} />
                     </div>
                     <div class="col-span-2">
-                        <Image src="/assets/aboutjio/about-jio-finance-desk2.webp" alt='image' width={295} height={200} />
+                        <Image src="/assets/aboutjio/about-jio-finance-desk2.webp"  className='rounded-3xl'alt='image' width={295} height={200} />
                     </div>
                     <div class="row-span-2 col-span-2">
-                        <Image src="/assets/aboutjio/about-jio-finance-desk3.webp" alt='image' width={295} height={200} />
+                        <Image src="/assets/aboutjio/about-jio-finance-desk3.webp" className='rounded-3xl' alt='image' width={295} height={200} />
                     </div>
                     <div class="row-span-3">
-                        <Image src="/assets/aboutjio/about-jio-finance-desk4.webp" alt='image' width={400} height={400} />
+                        <Image src="/assets/aboutjio/about-jio-finance-desk4.webp" className='rounded-3xl' alt='image' width={400} height={400} />
                     </div>
                 </div>
             </div>
