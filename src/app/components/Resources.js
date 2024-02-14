@@ -54,6 +54,19 @@ export default function Resource() {
         <div className="max-w-[350px] h-[240px] w-full py-5">
 
           <div style={{ backgroundImage: `url(${slides[1].url})` }} className="w-full h-full my-1 bg-center bg-cover rounded-3xl ">
+          <div className="flex w-full justify-between absolute bottom-4 left-0 px-8">
+              <div className=" mb-15"><h3 className="text-white text-4xl font-JioTypeBold  ">
+                Policy Statements
+              </h3>
+
+              </div>
+              <div className=" flex items-center ">
+                <button className=" px-10 py-4 mx-end  font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full w-fit">Explore Now</button>
+              </div>
+              {/* <div className="flex "> 
+              <button class=" px-10 py-4 mx-end ml-20 font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full w-fit">Explore Now</button>
+            </div> */}
+            </div>
           </div>
           <div style={{ backgroundImage: `url(${slides[2].url})` }} className="w-full h-full my-5 bg-center bg-cover rounded-3xl">
           </div>
