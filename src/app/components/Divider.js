@@ -21,7 +21,7 @@ export default function Divider() {
     <div className="max-w-[full] h-[480px] grid grid-cols-2 bg-yellow-700">
        <div className="text-center  my-10 ml-40 py-10 px-50">
         <h3  className="text-white text-4xl text-left font-JioTypeBold">
-        Come, be part of this transition to India's evolving financial life
+        Come, be part of this transition to Indias evolving financial life
         </h3>
         <br></br>
         <p  className="text-white text-l text-left font-JioTypeBold">
