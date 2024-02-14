@@ -41,9 +41,9 @@ export default function Resource() {
               <div className=" flex items-center ">
                 <button className=" px-10 py-4 mx-end  font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full w-fit">Explore Now</button>
               </div>
-              {/* <div className="flex "> 
+              <div className="flex end-1">
               <button class=" px-10 py-4 mx-end ml-20 font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full w-fit">Explore Now</button>
-            </div> */}
+            </div>
             </div>
           </div>
           <div>
