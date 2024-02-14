@@ -5,7 +5,7 @@ const Cards = () => {
  
   return (
     <section className="bg-gray-100 py-16">
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <Card
             title="Instant Loans"
@@ -19,7 +19,7 @@ const Cards = () => {
           />
           <Card
             title="Digital Banking"
-            description="Bank anytime, anywhere. Its easy, instant, and very much secure."
+            description="Bank anytime, anywhere. Its easy, instant, very much secure."
             imageUrl="/assets/cards/digital-banking-380-380.gif"
           />
           <Card

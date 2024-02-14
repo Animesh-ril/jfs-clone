@@ -1,11 +1,11 @@
 const Footer = () => {
     return (
-        <footer class="bg-white dark:bg-gray-900 items-center w-full">
+        <footer class="bg-footerbg dark:bg-gray-900 items-center w-full">
             <div class="mx-full w-full max-w-screen-xl items-center mx-auto">
-                <div class="grid grid-cols-4 gap-2 px-2 py-6 lg:py-8 md:grid-cols-5 justify-center ">
+                <div class="grid grid-cols-4 gap-2 px-7 py-6 lg:py-8 md:grid-cols-5 justify-center ">
                     <div>
-                        <h2 class="mb-6 text-sm text-gray-900 uppercase dark:text-white font-JioTypeBold" >Our Business</h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 class="mb-6 text-l text-gray-900 dark:text-white font-JioTypeBlack" >Our Business</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-JioTypeMedium">
                             <li class="mb-4">
                                 <a href="#" class=" hover:underline">Loans</a>
                             </li>
@@ -21,8 +21,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Our Company</h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 class="mb-6 text-l font-semibold text-gray-900 dark:text-white font-JioTypeBlack">Our Company</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-JioTypeMedium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">About Us</a>
                             </li>
@@ -38,8 +38,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Investor Relations</h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 class="mb-6 text-l font-semibold text-gray-900 dark:text-white font-JioTypeBlack">Investor Relations</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-JioTypeMedium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Financials</a>
                             </li>
@@ -70,8 +70,8 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Legal</h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <h2 class="mb-6 text-l font-semibold text-gray-900 dark:text-white font-JioTypeBlack">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-JioTypeMedium">
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Terms & Conditions</a>
                             </li>
@@ -81,9 +81,9 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Quick Links
+                        <h2 class="mb-6 text-l font-semibold text-gray-900 dark:text-white font-JioTypeBlack">Quick Links
                         </h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                        <ul className="text-gray-500 dark:text-gray-400 font-JioTypeMedium">
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">Careers</a>
                             </li>

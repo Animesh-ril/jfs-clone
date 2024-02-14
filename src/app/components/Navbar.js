@@ -5,11 +5,11 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <>
-      <div className="w-full h-20 bg-yellow-500 ">
+      <div className="w-full h-20 bg-navbgcolor">
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <nav>
-            <ul className="hidden md:flex gap-x-6 text-yellow-950  display: flex  font-bold ">
+            <ul className="hidden md:flex gap-x-7 text-navtitlecolor  display: flex  font-JioTypeBold">
             <section>
             <span>
            <Link href="/">

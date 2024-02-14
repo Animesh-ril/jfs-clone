@@ -20,6 +20,19 @@ module.exports = {
         JioTypeLight: ["JioType-Light"], // font-weight : 300
         JioTypeLightItalic: ["JioType-LightItalic"],
       },
+      colors:{
+        'navbgcolor': '#D8AA67',
+        'navtitlecolor':'#623C1F',
+        'lightbrown':"#906E39",
+        'yellow':'#FFD700',
+        'lightblue':'#E3E3E3',
+        'brown':'#6F542C',
+        'dividerbrown':'#AC660C',
+        'resourcebg':'#7B5D32',
+        'resourcebtncolor':'#E1B675',
+        'footerbg':'#F5F5F5',
+        'carouseltext':'#141414',
+      }
     },
   },
   plugins: [],
