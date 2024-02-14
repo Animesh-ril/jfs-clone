@@ -1,26 +1,36 @@
-// pages/index.js
-import Head from 'next/head';
-import Card from '../components/Card';
+// components/InstantLoans.js
+import React from 'react';
+import Card from './Card';
 
-const Cards= () => {
+const Cards = () => {
+
   return (
-    <div>
-      <Head>
-        <title>Card Component Example</title>
-        <meta name="description" content="Card Component Example in Next.js" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <main className="container mx-auto mt-8">
-        {/* Example Card */}
-        <Card 
-          title="Card Title" 
-          description="This is a description of the card." 
-          imageUrl="/home/nehalsharma/jfs/public/assets/logo/jfslogofinal.svg" 
-          buttonText="Learn More" 
-        />
-      </main>
-    </div>
+    <section className="bg-gray-100 py-16">
+      <div className="container mx-auto max-w-6xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <Card
+            title="Instant Loans"
+            description="Make your wish come true with a hassle-free instant loan."
+            imageUrl= "/assets/gifs/digital-banking-380-380.gif"
+          />
+          <Card
+            title="Insurance Plans"
+            description="Get bike, car and health insurance plans, all in one place."
+            imageUrl= "/assets/gifs/insurance-plans-500-500.gif"
+          />
+          <Card
+            title="Digital Banking"
+            description="Bank anytime, anywhere. It’s easy, instant, and very much secure."
+            imageUrl="/assets/gifs/digital-banking-380-380.gif"
+          />
+          <Card
+            title="UPI Payments"
+            description="Go cashless! This UPI feature works everywhere in India."
+            imageUrl= "/assets/gifs/upi-payments-500-500.gif"
+          />
+        </div>
+      </div>
+    </section>
   );
 };
 

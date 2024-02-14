@@ -1,7 +1,7 @@
 'use client';
 import React, { use, useEffect } from "react";
 import Image from 'next/image'
-import {RxDotFilled} from 'react-icons/rx'
+
 import { useState } from "react";
 
 export default function Divider() {

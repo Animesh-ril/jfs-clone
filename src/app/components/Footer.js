@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-gray-900">
-            <div className="px-auto mx-full w-full max-w-screen-xl justify-center">
+        <footer className="bg-white dark:bg-gray-900 tems-stretch">
+            <div className="px-auto  mx-full w-full max-w-6xl items-center">
                 <div className="px-auto grid grid-cols-4 gap-2 px-2 py-6 lg:py-8 md:grid-cols-5 justify-center">
                     <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioType-Bold" >Our Business</h2>
