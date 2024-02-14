@@ -1,9 +1,8 @@
-// components/InstantLoans.js
 import React from 'react';
 import Card from './Card';
-
+ 
 const Cards = () => {
-
+ 
   return (
     <section className="bg-gray-100 py-16">
       <div className="container mx-auto max-w-6xl">
@@ -11,27 +10,27 @@ const Cards = () => {
           <Card
             title="Instant Loans"
             description="Make your wish come true with a hassle-free instant loan."
-            imageUrl= "/assets/gifs/digital-banking-380-380.gif"
+            imageUrl= "/assets/cards/OneDrive_1_13-2-2024/digital-banking-380-380.gif"
           />
           <Card
             title="Insurance Plans"
             description="Get bike, car and health insurance plans, all in one place."
-            imageUrl= "/assets/gifs/insurance-plans-500-500.gif"
+            imageUrl= "/assets/cards/OneDrive_1_13-2-2024/insurance-plans-500-500.gif"
           />
           <Card
             title="Digital Banking"
-            description="Bank anytime, anywhere. It’s easy, instant, and very much secure."
-            imageUrl="/assets/gifs/digital-banking-380-380.gif"
+            description="Bank anytime, anywhere. Its easy, instant, and very much secure."
+            imageUrl="/assets/cards/OneDrive_1_13-2-2024/digital-banking-380-380.gif"
           />
           <Card
             title="UPI Payments"
             description="Go cashless! This UPI feature works everywhere in India."
-            imageUrl= "/assets/gifs/upi-payments-500-500.gif"
+            imageUrl= "/assets/cards/OneDrive_1_13-2-2024/upi-payments-500-500.gif"
           />
         </div>
       </div>
     </section>
   );
 };
-
+ 
 export default Cards;

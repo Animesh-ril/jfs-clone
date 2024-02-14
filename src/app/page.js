@@ -1,20 +1,29 @@
+
 import Head from 'next/head'
 import Card from './components/Card'
 import Footer from './components/Footer'
 import Navbar from './components/Navbar'
-import Cards from './components/Cards'
-// import SlideShow from './components/MultilineCarousel'
+import SlideShow from './components/Carousel'
 import Divider from './components/Divider'
+import Cards from './components/Cards'
+import FooterDivider from './components/FooterDivider'
+import Resource from './components/Resources'
 import AboutJio from './components/AboutJio'
-//import MultiLineCarousel from './components/MultilineCarousel'
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      <Cards />
-      <AboutJio />
-      <Footer />
+      <Navbar/>
+  
+     <SlideShow/>
+        <Cards />
+        <Divider/>
+    
+      <AboutJio/>
+      <Resource/>
+      <FooterDivider/>
+      <Footer/>
+      
     </div>
   )
 }
