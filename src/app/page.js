@@ -8,10 +8,14 @@ import Cards from './components/Cards'
 export default function Home() {
   return (
     <div>
-      <Navbar />
-      {/* <MultiLineCarousel/> */}
-      <Cards />
-      <Footer />
+
+      <Navbar/>
+      <main>
+     <SlideShow/>
+        <Card />
+        <Divider/>
+      </main>
+      <Footer/>
     </div>
   )
 }

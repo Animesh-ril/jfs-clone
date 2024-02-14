@@ -1,0 +1,33 @@
+{
+    "items": {
+      "bootstrap": [
+        {
+          "id": 1,
+          "title": "Realise Your Dreams",
+          "imageUrl": "/home/esther/next/jfs-clone/public/assets/slideshow/hero-digital-banking-mobi.webp"
+        
+        },
+        {
+          "id": 2,
+          "title": "Realise Your Dreams",
+          "imageUrl": "/home/esther/next/jfs-clone/public/assets/slideshow/hero-digital-banking-mobi.webp"
+         
+        },
+        {
+          "id": 3,
+          "title": "Realise Your Dreams",
+          "imageUrl": "/home/esther/next/jfs-clone/public/assets/slideshow/hero-digital-banking-mobi.webp"
+      
+          
+        },
+        {
+          "id": 4,
+          "title": "Foods and Culture",
+          "imageUrl": "/home/esther/next/jfs-clone/public/assets/slideshow/hero-digital-banking-mobi.webp"
+        
+
+        }
+      ]
+    }
+  }
+ 

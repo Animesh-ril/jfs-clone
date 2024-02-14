@@ -1,82 +1,71 @@
-// components/MultiLineCarousel.js
-import React from "react";
-import Image from "next/image";
-import Swiper from "react-id-swiper";
-import "swiper/swiper.scss";
-
-const MultiLineCarousel = () => {
-  const params = {
-    spaceBetween: 30,
-    slidesPerView: 3,
-    breakpoints: {
-      640: {
-        slidesPerView: 1,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 2,
-        spaceBetween: 30,
-      },
-      1024: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
+'use client'; const slides =[
+    {
+      url: "https://images.unsplash.com/photo-1602454252462-3fe9e21cc149?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb3MlMjBhbmQlMjBjb25zfGVufDB8fDB8fHww",
+      plain : 'Protect',
+      coloured: ' all that matters'
     },
-  };
+    {
+      url: "https://static.vecteezy.com/system/resources/previews/006/430/145/non_2x/technology-background-concept-circuit-board-electronic-system-futuristic-hi-tech-light-on-dark-blue-free-vector.jpg",
+      plain: 'Bank',
+      coloured: ' anytime anywhere'
+    },
+    {
+      url: "https://www.simplilearn.com/ice9/free_resources_article_thumb/Technology_Trends.jpg",
+      plain : 'Realise',
+      coloured: ' your dreams'
+    },
+    {
+      url: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D",
+      plain : 'Manage',
+      coloured: ' your finances'
+    }
+  ]
+import React, { use, useEffect } from "react";
+import Image from 'next/image'
+import {RxDotFilled} from 'react-icons/rx'
+import { useState } from "react";
+
+export default function SlideShow() {
+
+ 
+
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const prevSlide = () => {
+    const isFirst = currentIndex === 0;
+    const newIndex = isFirst ? slides.length-1 : currentIndex-1
+    setCurrentIndex(newIndex)
+  }
+
+  const nextSlide = () =>{
+    const isLast = currentIndex === slides.length-1;
+    const newIndex = isLast ? 0 : currentIndex + 1;
+    setCurrentIndex(newIndex)
+  }
+
+  const goToSlide = (slideIndex) => {
+    setCurrentIndex(slideIndex);
+  }
+
 
   return (
-    <div id="indicators-carousel" class="relative w-full" data-carousel="static">
-      {/* <!-- Carousel wrapper --> */}
-      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        {/* <!-- Item 1 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-          <Image src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+    <div className="max-w-[1500px] h-[650px] w-full m-auto  relative ">
+      <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full bg-center bg-cover duration-500  transition: ease 1000ms">
+      <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center md:block">
+        <div className="mb-10 text-5xl ">
+          <h5 className=" text-white font-JioTypeBold">{slides[currentIndex].plain}
+          <span  className="text-yellow-500 font-JioTypeBold">{slides[currentIndex].coloured}</span></h5>
         </div>
-        {/* <!-- Item 2 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <Image src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-        {/* <!-- Item 3 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <Image src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-        {/* <!-- Item 4 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <Image src="/docs/images/carousel/carousel-4.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </div>
-        {/* <!-- Item 5 --> */}
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <Image src="/docs/images/carousel/carousel-5.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+        <button class="px-4 py-4 font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full">Explore Now</button>
         </div>
       </div>
-      {/* <!-- Slider indicators --> */}
-      <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+      <div className="flex top-4 justify-center py-2">
+        {slides.map((slide,slideIndex) => (
+          <div key={slideIndex} onClick={()=> goToSlide(slideIndex)} className="text-2xl cursor-pointer">
+            <RxDotFilled />
+          </div>
+        ))}
       </div>
-      {/* <!-- Slider controls --> */}
-      <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
-          </svg>
-          <span class="sr-only">Previous</span>
-        </span>
-      </button>
-      <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
-          </svg>
-          <span class="sr-only">Next</span>
-        </span>
-      </button>
     </div>
-
-  );
-};
-
-export default MultiLineCarousel;
+  )
+}
