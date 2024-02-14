@@ -9,14 +9,14 @@ const Footer = () => {
                             <li class="mb-4">
                                 <a href="#" class=" hover:underline">Loans</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Insurance Broking</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Insurance Broking</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Payments Bank</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Payments Bank</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Payments Solutions</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Payments Solutions</a>
                             </li>
                         </ul>
                     </div>
@@ -26,14 +26,14 @@ const Footer = () => {
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">About Us</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Board of Directors</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Board of Directors</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Board Committees</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Board Committees</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Management</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Management</a>
                             </li>
                         </ul>
                     </div>
@@ -43,29 +43,29 @@ const Footer = () => {
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Financials</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Policy Documents</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Policy Documents</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Investor Contacts</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Investor Contacts</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Grievance Mechanism</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Grievance Mechanism</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Disclosure Under Regulation 46 of SEBI(LODR) Regulations,2015</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Disclosure Under Regulation 46 of SEBI(LODR) Regulations,2015</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Downloads</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Downloads</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Corporate Announcements</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Corporate Announcements</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Notices</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Notices</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Shareholders Information</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Shareholders Information</a>
                             </li>
                         </ul>
                     </div>
@@ -75,26 +75,26 @@ const Footer = () => {
                             <li class="mb-4">
                                 <a href="#" class="hover:underline">Terms & Conditions</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Privacy Policy</a>
                             </li>
                         </ul>
                     </div>
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white font-JioTypeBold">Quick Links
                         </h2>
-                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Careers</a>
+                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Careers</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Contact Us</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Contact Us</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">SEBI Circular on Online Dispute Resolution</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">SEBI Circular on Online Dispute Resolution</a>
                             </li>
-                            <li class="mb-4">
-                                <a href="#" class="hover:underline">Link to SMART ODR</a>
+                            <li className="mb-4">
+                                <a href="#" className="hover:underline">Link to SMART ODR</a>
                             </li>
                         </ul>
                     </div>

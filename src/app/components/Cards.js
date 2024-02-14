@@ -10,22 +10,22 @@ const Cards = () => {
           <Card
             title="Instant Loans"
             description="Make your wish come true with a hassle-free instant loan."
-            imageUrl= "/assets/cards/OneDrive_1_13-2-2024/digital-banking-380-380.gif"
+            imageUrl= "/assets/cards/digital-banking-380-380.gif"
           />
           <Card
             title="Insurance Plans"
             description="Get bike, car and health insurance plans, all in one place."
-            imageUrl= "/assets/cards/OneDrive_1_13-2-2024/insurance-plans-500-500.gif"
+            imageUrl= "/assets/cards/insurance-plans-500-500.gif"
           />
           <Card
             title="Digital Banking"
             description="Bank anytime, anywhere. Its easy, instant, and very much secure."
-            imageUrl="/assets/cards/OneDrive_1_13-2-2024/digital-banking-380-380.gif"
+            imageUrl="/assets/cards/digital-banking-380-380.gif"
           />
           <Card
             title="UPI Payments"
             description="Go cashless! This UPI feature works everywhere in India."
-            imageUrl= "/assets/cards/OneDrive_1_13-2-2024/upi-payments-500-500.gif"
+            imageUrl= "/assets/cards/upi-payments-500-500.gif"
           />
         </div>
       </div>
