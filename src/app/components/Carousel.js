@@ -54,7 +54,7 @@ export default function SlideShow() {
 
 
   return (
-    <div className="max-w-[1500px] h-[650px] w-full m-auto  relative ">
+    <div className="max-w-[1900px] h-[650px] w-full m-auto  relative ">
       <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className="w-full h-full bg-center bg-cover duration-500  transition: ease 1000ms">
       <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center md:block">
         <div className="mb-10 text-5xl ">

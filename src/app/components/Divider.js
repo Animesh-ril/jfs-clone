@@ -8,7 +8,7 @@ export default function Divider() {
 
     const slides =[
         {
-          url: "../assets/slideshow/homepage-pay-desk.webp",
+          url: "../assets/home/come-be-part-of-this-v4.webp",
          
         }
       ]
@@ -27,7 +27,7 @@ export default function Divider() {
         <p  className="text-white text-l text-left font-JioTypeBold">
         Leveraging the latest technology, we empower you to manage your finances in an informed way.
         </p>
-        <div class="grid grid-cols-2 gap-5 py-10 text-white justify-center font-JioTypeMedium text-xl">
+        <div class="grid grid-cols-2 gap-5 py-10 text-white text-left  font-JioTypeMedium text-xl">
         <div>Real-time Transactions</div>
         <div>Robust Security</div>
         <div>Partner Network</div>
@@ -36,8 +36,8 @@ export default function Divider() {
 
 
       </div>
-      <div className="ml-10 my-20">
-        <div style={{backgroundImage: `url(${slides[0].url})`}} className="w-full h-full  py-10 px-200  bg-cover bg-center">
+      <div className="ml-10 my-0">
+        <div style={{backgroundImage: `url(${slides[0].url})`}} className="w-full h-full   px-200  bg-cover bg-center">
         </div></div>
       
     </div>

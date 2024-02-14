@@ -7,18 +7,23 @@ import SlideShow from './components/Carousel'
 import Divider from './components/Divider'
 import Cards from './components/Cards'
 import FooterDivider from './components/FooterDivider'
+import Resource from './components/Resources'
+import AboutJio from './components/AboutJio'
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      <main>
+  
      <SlideShow/>
         <Cards />
         <Divider/>
-      </main>
+    
+      <AboutJio/>
+      <Resource/>
       <FooterDivider/>
       <Footer/>
+      
     </div>
   )
 }
