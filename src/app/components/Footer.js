@@ -1,3 +1,5 @@
+import Image from "next/image";
+import logo from '../../../public/assets/logo/jfslogofinal.svg'
 const Footer = () => {
     return (
         <footer class="bg-footerbg dark:bg-gray-900 items-center w-full">
@@ -99,11 +101,20 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center font-JioTypeBold md:justify-between">
-                    <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="">Jio Financial Services Ltd.</a>(Formerly Reliance Strategic Investments Ltd.)
-                    </span>
+                {/* <div class="flex box-contentpx-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center font-JioTypeBold md:justify-between">
+                    <div className="flex box-content">
 
-                </div>
+                        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"><Image alt="img" src={logo} width={30} height={10} />© 2023 <a href="">Jio Financial Services Ltd.</a>(Formerly Reliance Strategic Investments Ltd.)
+                        </span>
+                    </div>
+
+                </div> */}
+                <div className="flex">
+          <Image alt="img" src={logo} width={30} height={20} className="mb-3"/>
+          {/* <p className="ml-2">Real-time Transactions</p> */}
+          <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center ml-10">© 2023 <a href="">Jio Financial Services Ltd.</a>(Formerly Reliance Strategic Investments Ltd.)
+                        </span>
+        </div>
             </div>
         </footer>
     )

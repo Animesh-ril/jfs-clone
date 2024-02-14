@@ -10,6 +10,12 @@ import { useState } from "react";
  
  
 const slides = [
+
+  {
+    url: "/assets/slideshow/homepage-pay-desk.jpg",
+    plain: 'Manage',
+    coloured: ' your finances'
+  },
   {
     url: "/assets/slideshow/hero-insurance-mobi.webp",
     plain: 'Protect',
@@ -25,11 +31,7 @@ const slides = [
     plain: 'Realise',
     coloured: ' your dreams'
   },
-  {
-    url: "/assets/slideshow/homepage-pay-desk.webp",
-    plain: 'Manage',
-    coloured: ' your finances'
-  }
+  
 ]
  
  
@@ -57,13 +59,13 @@ export default function SlideShow() {
  
  
   return (
-    <div className="max-w-[1900px] h-[720px] w-full m-auto  relative ">
+    <div className="max-w-[1900px] h-[650px] w-full m-auto  relative ">
  
       <div>
         {/* <Image src={"/assets/slideshow/homepage-pay-desk.webp"} width={1900} height={650} className="object-cover w-full h-[680px]"/> */}
       </div>
  
-      <div style={{ backgroundImage: `url(${slides[currentIndex].url})`, transition: 'background-image 0.5s ease' }} className="w-full h-full bg-center bg-cover duration-500 transition ease-in-out">
+      <div style={{ backgroundImage: `url(${slides[currentIndex].url})`, backgroundSize:"cover", backgroundRepeat:"no-repeat", transition: 'background-image 0.5s ease' }} className="w-full h-full bg-center bg-cover duration-500 transition ease-in-out">
         <div className="absolute inset-x-[15%] bottom-5 hidden py-5 text-center md:block">
           <div className="mb-10 text-5xl ">
             <h5 className=" text-white font-JioTypeBlack">{slides[currentIndex].plain}
