@@ -30,19 +30,18 @@ export default function Resource() {
       <div className="flex gap-4 justify-center w-full">
         <div className="w-1/2 h-[470px] py-5 items-center">
           <div style={{ backgroundImage: `url(${slides[0].url})` }} className="w-full h-full bg-center bg-cover rounded-3xl relative">
-            <div className="text-left ml-10 mx-3 flex justify-center items-end">
-              <div className="mt-20 mb-15"><h3 className="text-white text-4xl font-JioTypeBold  ">
+            <div className="text-left ml-10 py-20 flex top-20">
+              <div className=""><h3 className="text-white text-4xl font-JioTypeBold  ">
                 Financial Documents
               </h3>
               <br></br>
               <p className="text-white text-l text-left font-JioTypeBold">
                 Access quarterly and annual reports.
-                <button class=" px-10 py-4 mx-end ml-40 font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full w-fit">Explore Now</button>
               </p>
               </div>
-              {/* <div className="flex "> 
+              <div className="flex end-1">
               <button class=" px-10 py-4 mx-end ml-20 font-JioTypeBold text-black bg-yellow-500  hover:bg-yellow-700 rounded-full w-fit">Explore Now</button>
-            </div> */}
+            </div>
             </div>
           </div>
           <div>
