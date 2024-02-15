@@ -22,14 +22,22 @@ export default function Home() {
         <Navbar />
         <SlideShow />
         <Cards />
-
+        <div className='bg-gray-100 p-10'>
+        <h1 className='font-JioTypeBlack text-navtitlecolor -mt-7 mb-10 text-5xl text-center'>Learn about Finance & Investments</h1>
         <je-carousel playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517" tags={false} user-id="dummy_id"></je-carousel>
+        </div>
         <Divider />
-        <je-storyblock playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517"  user-id="dummy_id"></je-storyblock>
         <AboutJio />
         <Resource />
+        <div className='p-10 bg-resourcebg'>
+
+        <je-storyblock playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517"  user-id="dummy_id"></je-storyblock>
+        </div>
         <FooterDivider />
+        <div className=' p-10'>
+        <h1 className='font-JioTypeBlack text-navtitlecolor -mt-10 mb-10 text-5xl text-center'>Lets learn to Invest</h1>
         <je-video-grid playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517" tags={false}  user-id="dummy_id"></je-video-grid>
+        </div>
         <Footer />
       </div>
     </>

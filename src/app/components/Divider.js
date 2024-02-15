@@ -15,7 +15,7 @@ export default function Divider() {
     }
   ]
   return (
-    <div className="mt-10 mb-5">
+    <div className="mb-5">
       <div className="max-w-[full] h-[555px] grid grid-cols-2 bg-dividerbrown">
         <div className="text-center  my-10 ml-40 py-20 px-50">
           <h3 className="text-white text-4xl text-left font-JioTypeBlack px-10 ml-">
