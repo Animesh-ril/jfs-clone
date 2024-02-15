@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 h-full">
           <div className="flex justify-between items-center h-full">
             <nav>
-            <ul className="hidden md:flex gap-x-7 text-navtitlecolor  display: flex  font-JioTypeBold">
+            <ul className=" md:flex gap-x-7 text-navtitlecolor  display: flex  font-JioTypeBold">
             <section>
             <span>
            <Link href="/">
