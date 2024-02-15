@@ -22,10 +22,11 @@ export default function Home() {
         <Navbar />
         <SlideShow />
         <Cards />
+
+        <je-carousel playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517" tags={false} user-id="dummy_id"></je-carousel>
         <Divider />
         <je-storyblock playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517"  user-id="dummy_id"></je-storyblock>
         <AboutJio />
-        <je-carousel playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517" tags={false} user-id="dummy_id"></je-carousel>
         <Resource />
         <FooterDivider />
         <je-video-grid playlist-id="IXF-104" tenant-id="649ed93966cbc10030401517" tags={false}  user-id="dummy_id"></je-video-grid>
