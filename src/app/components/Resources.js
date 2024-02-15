@@ -58,7 +58,7 @@ export default function Resource() {
           <div style={{ backgroundImage: `url(${slides[1].url})` }} className="w-full h-full my-1 bg-center relative bg-cover rounded-3xl ">
             <div className="flex w-full justify-between absolute bottom-4 left-0 px-8">
               <div className="flex box-content mb-15">
-                <h3 className="text-white text-2xl font-JioTypeBold">
+                <h3 className="text-white text-2xl font-JioTypeBlack">
                 Policy Statments
               </h3>
               <div className=" flex box-content items-center ml-10 mb-3">
@@ -71,11 +71,11 @@ export default function Resource() {
           </div>
           <div style={{ backgroundImage: `url(${slides[2].url})` }} className="w-full h-full my-5 bg-center relative bg-cover rounded-3xl">
             <div className="flex w-full justify-between absolute bottom-4 left-0 px-8">
-              <div className=" flex box-content mb-15"><h3 className="text-white text-2xl font-JioTypeBold  ">
+              <div className=" flex box-content mb-15"><h3 className="text-white text-2xl font-JioTypeBlack  ">
                 Investor Contacts
               </h3>
               <div className=" flex box-content items-center ml-10 mb-3">
-                <button className=" flex items-center  px-3 py-3 font-JioTypeBold text-black bg-resourcebtncolor  hover:bg-yellow-700 rounded-full w-50">
+                <button className=" flex items-center  px-3 py-3 font-JioTypeBlack text-black bg-resourcebtncolor  hover:bg-yellow-700 rounded-full w-50">
                 <RxArrowRight size={20}/></button>
               </div>
               </div>
