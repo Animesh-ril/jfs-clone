@@ -77,7 +77,7 @@ export default function SlideShow() {
       <div className="flex top-4 justify-center py-2">
         {slides.map((slide, slideIndex) => (
           <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className="text-2xl cursor-pointer">
-            <RxDotFilled />
+            <RxDotFilled  className=" text-stone-400 "/>
           </div>
         ))}
       </div>
