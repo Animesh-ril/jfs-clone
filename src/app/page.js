@@ -11,7 +11,7 @@ import Script from "next/script";
 
 //vids
 
-
+ 
 export default function Home() {
   return (
     <>
@@ -41,6 +41,5 @@ export default function Home() {
         <Footer />
       </div>
     </>
-
   )
 }
